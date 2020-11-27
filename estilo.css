@@ -27,8 +27,6 @@
 	border: 1px solid black;
 	text-align: center;
 	font-size: 1.5em;
-	
-	
 }
 .item2 {
 	flex: 1;
@@ -36,9 +34,6 @@
 	border: 1px solid black;
 	text-align: center;
 	font-size: 1.5em;
-	
-	
-	
 }
 .item3 {
 	flex: 1;
@@ -46,8 +41,6 @@
 	border: 1px solid black;
 	text-align: center;
 	font-size: 1.5em;
-	
-	
 }
 .item4 {
 	flex: 1;
@@ -62,10 +55,22 @@ h2{
 	text-align: center;
 	color: black;
 }
-
+h3{
+	margin-left: 10px ;
+}
 body{
 	margin-left:  50px;
 	margin-right: 50px;
 	background-image: url("fundo.jpg");
 	
+}
+footer {
+	background-color: white;
+	padding: 1px;
+	margin: 0;
+}
+#rodape {
+	display: flex;
+	flex-direction: row;
+	margin-left: 32%;
 }
